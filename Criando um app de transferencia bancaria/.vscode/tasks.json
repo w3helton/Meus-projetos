@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Abstraindo-um-Jogo-de-RPG/rpg.csproj",
+                "${workspaceFolder}/DIO.Bank.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/Abstraindo-um-Jogo-de-RPG/rpg.csproj",
+                "${workspaceFolder}/DIO.Bank.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -32,8 +32,9 @@
             "args": [
                 "watch",
                 "run",
-                "--project",
-                "${workspaceFolder}/Abstraindo-um-Jogo-de-RPG/rpg.csproj"
+                "${workspaceFolder}/DIO.Bank.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
             ],
             "problemMatcher": "$msCompile"
         }
